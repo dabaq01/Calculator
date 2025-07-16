@@ -5,6 +5,7 @@ print("""++++++++++++++++++++
 3. Multiplication
 4. Divition
 5. Exponential
+6. Floor Division
 ++++++++++++++++++++""")
 
 print ("++++++++")
@@ -57,6 +58,18 @@ print ("^^^^^^^^^^^")
 print("Please enter two numbers to run exponential")
 #prompt the user for a number and store it
 firstNumber = float (input ("First Number:"))
+#prompt the user for another number and store it
 SecondNumber = float (input ("Second Number:"))
 exp = float (firstNumber ** SecondNumber)
 print(f" Exponential of {firstNumber} ** {SecondNumber} is {exp:.2f}")
+
+print ("^^^^^^^^^^^")
+print ("Floor Division")
+print ("^^^^^^^^^^^")
+print("Please enter two numbers to run exponential")
+#prompt the user for a number and store it
+firstNumber = float (input ("First Number:"))
+SecondNumber = float (input ("Second Number:"))
+floor = float (firstNumber // SecondNumber)
+print(f" Exponential of {firstNumber} // {SecondNumber} is {floor}")
+
